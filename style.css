@@ -4,7 +4,7 @@
 
 body{
     font-family: "Noto Sans JP","sans-serfif";
-    margin: 0%;
+    margin: 0;
     min-width: 1076;
 }
 
@@ -15,7 +15,7 @@ body{
 
 .sub-title{
     font-size: 32px;
-    font-weight: bolder;
+
 }
 
 /* 
@@ -29,7 +29,7 @@ headerのスタイルシート
 }
 
 .block-header a{
-    font-size: 20px;
+    font-size: 40px;
     color: #000;
     text-decoration: none;
     letter-spacing: 1px;
@@ -67,7 +67,7 @@ img.plofile{
 }
 
 .item-list p{
-    font-size: 15px;
+    font-size: 13px;
     line-height: normal;
     text-align: left;
 }
@@ -161,4 +161,89 @@ footerのスタイルシート
     text-align: center;
     font-size: 15px;
     margin: 50px 0 20px;
+}
+
+/* 
+スマホ用のスタイルシート
+*/
+
+@media screen and (max-width: 767px) {
+    body{
+        min-width: 100%;
+
+    }
+
+    /* 
+    headerのスタイルシート
+    */
+
+    .block-header{
+        padding: 0 10px 10px;
+        box-shadow: 0 8px 8px -5px rgba(204, 204, 204, 0.3);
+    }
+    
+    .block-header a{
+        font-size: 31px;
+    }
+
+    /* 
+    mainのスタイルシート
+    */
+
+    .block-main{
+        margin: 50px 0;
+    }
+
+    /* 
+    plofileのスタイルシート
+    */
+
+    .box-plofile{
+        padding: 0 10px;
+    }
+
+    .item-list{
+        max-width: 100%;
+    }
+
+    .item-list b{
+        font-size: 18px;
+    }
+
+    .icon-list{
+        max-width: 100%;
+    }
+
+    .icon-list li{
+        margin-right: 25px;
+    }
+
+    /* 
+    worksのスタイルシート
+    */
+
+    .box-works{
+        margin: 60px 0 0;
+        padding: 0 10px;
+    }
+
+    .works-list{
+        max-width: 100%;
+    }
+
+    .works-list li{
+        max-width: 100%;
+        float: none;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .works-list h3{
+        font-size: 20px;
+        margin: 5px 0;
+    }
+
+    .works-list span{
+        font-size: 14px;
+    }
 }
