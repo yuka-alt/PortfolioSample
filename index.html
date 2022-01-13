@@ -20,50 +20,51 @@
         headerタグ作成
      -->
     <header>
-       <h1 class="block-header">
-           <span class="color-green">P</span>ortfolio
-       </h1>
+        <div class="head">
+            <h1 class="block-header">
+                Portfolio
+            </h1>
+            <div class="header-logo">
+                <img src="img2/icon_013290.svg" alt="ホーム画像" class="headerimg">
+                <img src="img2/icon_003120.svg" alt="プロフィール画像" class="headerimg">
+                <img src="img2/icon_008050.svg" alt="コンテンツ画像" class="headerimg">
+            </div>
+        </div>
+        <div class="name">
+            <p class="header-name">Yuka</p>
+            <p>Itani</p>
+        </div>
     </header>
 
     <!-- 
         mainタグ作成
      -->
+     <div class="about">
+        <h1>
+            about me
+        </h1>
+    </div>
 
-     <div class="block-main">
-         <!-- profileの箱 -->
-        <div class="box-profile"> 
-            <h2 class="sub-title">
-                <span class="color-green">P</span>ortfolio
-            </h2>
-            <div class="item-list">
-                <img src="img/plofile2.png" alt="プロフィール画像" class="plofile">
-                <b>井谷　優佳</b>
-                <p class="color-green">HTML / CSS / PHP / MySQL / Laravel / Adobe XD</p>
-                <p>ここにテキストが入ります</p>
-            </div>
-            <ul class="icon-list">
-                <li>
-                    <a href="">
-                        <img src="img/github2.png" alt="Githubアイコン">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="img/twitter2.png" alt="Twitterアイコン">
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <!-- workの箱 -->
-        <div class="box-works">
+    <section class="profile">
+        <ul class="profile-list">
+            <li>Name:  井谷　優佳</li>
+            <li>Age:  24</li>
+            <li>From:  Osaka</li>
+            <li>Hobby:  舞台鑑賞・ダイビング</li>
+            <li>Skil:  HTML / CSS / PHP / MySQL / Laravel / Adobe XD</li>
+        </ul>
+    </section>
+
+    <!-- workの箱 -->
+        <section class="box-works">
             <h2 class="sub-title">
                 <span class="color-green">W</span>orks
             </h2>
             <ul class="works-list">
                 <li>
                     <img src="img/works1.png" alt="Twitterクローンの画像">
-                    <h3>Twitterクローン</h3>
-                    <span>HTML / CSS / PHP /MySQL</span>
+                    <h3>TODO</h3>
+                    <span>HTML / CSS / PHP /MySQL/Laravel</span>
                     <div class="link">
                         <a href="">WEBサイト</a>
                         <a href="">GitHub</a>
@@ -80,15 +81,15 @@
                 </li>
                 <li>
                     <img src="img/works1.png" alt="Twitterクローンの画像">
-                    <h3>Twitterクローン</h3>
-                    <span>HTML / CSS / PHP /MySQL</span>
+                    <h3>スケジュール帳</h3>
+                    <span>HTML / CSS / PHP /MySQL/Laravel</span>
                     <div class="link"> 
                         <a href="">WEBサイト</a>
                         <a href="">GitHub</a>
                     </div>
                 </li>
             </ul>
-        </div>
+        </section>
      </div>
 
      <!-- 
